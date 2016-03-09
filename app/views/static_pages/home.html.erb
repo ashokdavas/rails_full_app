@@ -1,7 +1,15 @@
 <% provide(:title, "home page")%>
-<h1>StaticPages#home</h1>
+<h1 class="jumbotron">StaticPages#home</h1>
 <p>Find me in app/views/static_pages/home.html.erb</p>
-
+<!-- btn to check bootstrap-->
+<div class="button"> 
+<a class ="btn btn-primary btn-lg" style="margin-bottom: 10px;">click me</a>
+</div>
+<!-- rendering template _commonLinks.html.erb-->
 <%= render "commonLinks"%>
+
+<!-- manual css is written for class footer in custom.css-->
+<div class= "footer">
 <a href="about">about page</a>
 <a href="help">help page</a>
+</div>
